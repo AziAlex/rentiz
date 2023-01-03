@@ -1,0 +1,86 @@
+html,
+.section-4 {
+    position: relative;
+    height: 100%;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    /* -ms-flex-align: center; */
+    /* -webkit-align-items: center; */
+    align-items: start;
+}
+
+.mySwiper-last {
+    width: 60%;
+    margin-top: 60px;
+}
+
+.slid-er img {
+    height: 60px;
+}
+
+.slid-er p {
+    font-weight: 400;
+    font-size: clamp(1.125rem, 0.727rem + 1.99vw, 2rem);
+    line-height: 157%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    text-align: start;
+}
+
+.slid-er h5 {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 157%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    text-align: start;
+}
+.slid-er h6 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 157%;
+    text-transform: capitalize;
+    color: #ffffff8a;
+    text-align: start;
+}
+
+.prev-btn-last {
+    top: 73%;
+    left: 80%;
+}
+.next-btn-last {
+    top: 73%;
+    left: 85%;
+}
+
+@media (max-width: 970px) {
+    .mySwiper-last {
+        width: 95%;
+    }
+    .prev-btn-last {
+        left: 75%;
+    }
+}
+
+.swiper-pagination-bullet-active {
+    background-color: aqua;
+}
