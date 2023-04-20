@@ -63,17 +63,18 @@ body {
   border: 1px solid var(--accent-color);
   padding: 11px 29px;
   margin-right: 5px;
+  transition: 0.2s;
 }
 .wrap .header .navbar .login:hover {
   background-color: var(--accent-color);
 }
 .wrap .header .navbar .sing-up {
-  background-color: var(--accent-color);
+  transition: 0.2s;
   border: 1px solid var(--accent-color);
   padding: 11px 20px;
 }
 .wrap .header .navbar .sing-up:hover {
-  background-color: transparent;
+  background-color: var(--accent-color);
 }
 .wrap .header .navbar .burger-menu-icon {
   display: none;
